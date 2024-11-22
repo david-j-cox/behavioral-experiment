@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behavioral Experiment</title>
+</head>
+<body>
+    <h1>Behavioral Experiment</h1>
+    <h2>Bank: <span id="bank">0</span> Points</h2>
+    <button id="buttonA" onclick="pressButton('A')">Press Button A</button>
+    <button id="buttonB" onclick="pressButton('B')">Press Button B</button>
+
+    <script>
+        function pressButton(button) {
+            fetch(`/press/${button}`, { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('bank').innerText = data.bank;
+                });
+        }
+    </script>
+</body>
+</html>
