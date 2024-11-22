@@ -10,7 +10,6 @@ attrs
 beautifulsoup4
 canvasapi==3.3.0
 click
-conda
 coolname==2.2.0
 croniter==4.0.0
 dash==2.17.1
