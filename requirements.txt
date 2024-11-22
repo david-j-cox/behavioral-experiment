@@ -128,6 +128,7 @@ google_search_results==2.4.2
 graphviz==0.20.3
 greenlet @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_10cuim1il_/croot/greenlet_1702059962773/work
 griffe==1.5.1
+gunicorn==23.0.0
 h11 @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_14h6x3q_k6/croot/h11_1706652288187/work
 h2==4.1.0
 h5py @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_3cp9aol8sr/croot/h5py_1715094733268/work
